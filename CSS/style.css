@@ -1,0 +1,325 @@
+/************************************************************/
+/************************************************************/
+body{
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    height: 820px;
+}
+
+
+/************************************************************/
+/***********************  nav  ******************************/
+nav{
+    background-color: #e62f05;
+    color: white;
+    height: 50px;
+    padding-top: 5px;
+}
+
+nav ul{}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/************************************************************/
+/********************  left_side  ***************************/
+#left_side{
+    width: 250px;
+    height: 500px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/****************************************/
+/*************  shortcut  ***************/
+#left_side #shortcut{
+    height: 330px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    text-align: left;
+}
+
+#left_side #shortcut h3{
+    margin-left: 40px;
+}
+
+#left_side #shortcut ul{
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+#left_side #shortcut ul li{
+    list-style: none;
+    height: 25px;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+#left_side #shortcut ul a{
+    color: black;
+    text-decoration: none;
+}
+
+#left_side #shortcut ul a:hover{
+    color: #e62f05;
+}
+
+
+#left_side #shortcut img{
+    width: 17px;
+    height: 17px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/****************************************/
+/****************  scan  ****************/
+#left_side #scan{
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+}
+
+
+#left_side #scan h3{}
+
+#left_side #scan p , h5{
+    color: #c0c0c0;
+} 
+
+#left_side #scan img{
+    width: 100px;
+    height: 100px;
+}
+
+/************************************************************/
+/********************  right_side  **************************/
+#right_side{
+    width: 900px;
+    height: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/****************************************/
+/****************  header  **************/
+#right_side #header{
+    padding: 10px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+}
+
+#right_side #header #logo{
+    float: left;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+#right_side #header #name{
+    float: left;
+}
+
+#right_side #header #name h2{}
+
+
+#right_side #header #name p{
+    display: inline;
+    color: #c0c0c0;
+}
+
+#right_side #header #name #haeder_icon1{
+    width: 15px;
+    height: 20px;
+}
+
+#right_side #header #name #haeder_icon2{
+    width: 20px;
+    height: 15px;
+}
+
+
+
+#right_side #header #header_right{
+    float: right;
+    font-size: 15px;
+}
+
+#right_side #header #header_right form select{
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    width: 170px;
+    height: 30px;
+}
+
+#right_side #header #header_right form select option{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#right_side #header #header_right form label{
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    display: block;
+    width: 160px;
+    height: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/****************************************/
+/****************  counter  *************/
+#right_side #counter{
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#right_side #counter .counter_details{
+    float: left;
+    border-right: 2px solid #f1f1f1;
+    height: 80px;
+    width: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#right_side #counter .counter_details h2{
+    font-size: 20px;
+}
+
+#right_side #counter .counter_details p{
+    font-size: 15px;
+}
+
+/****************************************/
+/****************  info  ****************/
+#right_side #info{
+    background-color: white;
+    height: 440px;
+    padding: 20px;
+}
+
+#right_side #info h2{
+    margin-top: 0px;
+}
+
+
+#right_side #info .info_details{
+    
+    height: 100px;
+}
+
+#right_side #info .info_details span{
+    color: #c0c0c0;
+}
+
+#right_side #info img{
+    border: 2px solid #f1f1f1;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#right_side #info img,#right_side #info p{
+    float: left;
+}
+
+#right_side #info a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #888888;
+}
+
+#right_side #info a:hover{
+    text-decoration: underline;
+}
+
+
+#right_side #info #more{
+    height: 60px;
+}
+
+#right_side #info #more a{
+    text-align: center;
+    display: inline-block;
+}
+
+#right_side #info #more img{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/****************************************/
+/************  static_icons  ************/
+
+
+#static_icons{
+    float: left;
+    margin-left: 20px;
+    
+    position: fixed;
+    bottom: 10px;
+    right: 80px;
+}
+
+#static_icons img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+    
+}
+#static_icons img:hover{
+    opacity: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
